@@ -1,0 +1,24 @@
+{
+  "data": {
+    "path": {
+      "CricketX/cricket.json": [
+        "CricketX/cricket.atlas.txt"
+      ]
+    },
+    "uuid": {
+      "CricketX/cricket.json": [
+        "4874fd2e-0d2f-462e-9ed5-e29643ae30ee@6c48a",
+        "dbb04e7e-9a83-41e0-9273-4ee1fb7f713e@6c48a",
+        "a73281f1-7685-4ad8-8594-a891fc4343f3@6c48a",
+        "02e984d3-05eb-4bd1-9c46-a764c4fc36fc@6c48a",
+        "932fe3e8-8a98-4e4c-85d3-2585cd732549@6c48a",
+        "97182bf0-c876-4a77-b3c1-a7bf3cf3c23a@6c48a",
+        "316875d1-a1b5-489b-aeaf-d49b5c7c421f@6c48a",
+        "23b1c292-bfd3-443c-8c43-100203310c17@6c48a",
+        "37993a96-9dcb-4384-b4d5-805a082ca422@6c48a",
+        "1d464a34-c763-44bb-8740-229017371846@6c48a"
+      ]
+    }
+  },
+  "version": "1.0.0"
+}

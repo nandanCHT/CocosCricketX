@@ -1,0 +1,338 @@
+{
+  "dd9c0b5a-0b7c-4c39-bd68-f28e8e43bd2d": {
+    "url": "db://assets/CricketX/cricket.atlas.txt",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "91507012-a07e-4c25-ab66-ebaf682c87c7": {
+    "url": "db://assets/CricketX/cricket.json",
+    "value": {
+      "depends": [
+        "4874fd2e-0d2f-462e-9ed5-e29643ae30ee@6c48a",
+        "dbb04e7e-9a83-41e0-9273-4ee1fb7f713e@6c48a",
+        "a73281f1-7685-4ad8-8594-a891fc4343f3@6c48a",
+        "02e984d3-05eb-4bd1-9c46-a764c4fc36fc@6c48a",
+        "932fe3e8-8a98-4e4c-85d3-2585cd732549@6c48a",
+        "97182bf0-c876-4a77-b3c1-a7bf3cf3c23a@6c48a",
+        "316875d1-a1b5-489b-aeaf-d49b5c7c421f@6c48a",
+        "23b1c292-bfd3-443c-8c43-100203310c17@6c48a",
+        "37993a96-9dcb-4384-b4d5-805a082ca422@6c48a",
+        "1d464a34-c763-44bb-8740-229017371846@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4874fd2e-0d2f-462e-9ed5-e29643ae30ee": {
+    "url": "db://assets/CricketX/cricket.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1d464a34-c763-44bb-8740-229017371846": {
+    "url": "db://assets/CricketX/cricket10.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c307d11b-02e2-46a0-87f8-ba823e49708e": {
+    "url": "db://assets/CricketX",
+    "value": {},
+    "versionCode": 1
+  },
+  "dbb04e7e-9a83-41e0-9273-4ee1fb7f713e": {
+    "url": "db://assets/CricketX/cricket2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a73281f1-7685-4ad8-8594-a891fc4343f3": {
+    "url": "db://assets/CricketX/cricket3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "02e984d3-05eb-4bd1-9c46-a764c4fc36fc": {
+    "url": "db://assets/CricketX/cricket4.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1d464a34-c763-44bb-8740-229017371846@6c48a": {
+    "url": "db://assets/CricketX/cricket10.png@6c48a",
+    "value": {
+      "depends": [
+        "1d464a34-c763-44bb-8740-229017371846"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4874fd2e-0d2f-462e-9ed5-e29643ae30ee@6c48a": {
+    "url": "db://assets/CricketX/cricket.png@6c48a",
+    "value": {
+      "depends": [
+        "4874fd2e-0d2f-462e-9ed5-e29643ae30ee"
+      ]
+    },
+    "versionCode": 1
+  },
+  "dbb04e7e-9a83-41e0-9273-4ee1fb7f713e@6c48a": {
+    "url": "db://assets/CricketX/cricket2.png@6c48a",
+    "value": {
+      "depends": [
+        "dbb04e7e-9a83-41e0-9273-4ee1fb7f713e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1d464a34-c763-44bb-8740-229017371846@f9941": {
+    "url": "db://assets/CricketX/cricket10.png@f9941",
+    "value": {
+      "depends": [
+        "1d464a34-c763-44bb-8740-229017371846@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "932fe3e8-8a98-4e4c-85d3-2585cd732549": {
+    "url": "db://assets/CricketX/cricket5.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "02e984d3-05eb-4bd1-9c46-a764c4fc36fc@6c48a": {
+    "url": "db://assets/CricketX/cricket4.png@6c48a",
+    "value": {
+      "depends": [
+        "02e984d3-05eb-4bd1-9c46-a764c4fc36fc"
+      ]
+    },
+    "versionCode": 1
+  },
+  "dbb04e7e-9a83-41e0-9273-4ee1fb7f713e@f9941": {
+    "url": "db://assets/CricketX/cricket2.png@f9941",
+    "value": {
+      "depends": [
+        "dbb04e7e-9a83-41e0-9273-4ee1fb7f713e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "97182bf0-c876-4a77-b3c1-a7bf3cf3c23a": {
+    "url": "db://assets/CricketX/cricket6.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "02e984d3-05eb-4bd1-9c46-a764c4fc36fc@f9941": {
+    "url": "db://assets/CricketX/cricket4.png@f9941",
+    "value": {
+      "depends": [
+        "02e984d3-05eb-4bd1-9c46-a764c4fc36fc@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4874fd2e-0d2f-462e-9ed5-e29643ae30ee@f9941": {
+    "url": "db://assets/CricketX/cricket.png@f9941",
+    "value": {
+      "depends": [
+        "4874fd2e-0d2f-462e-9ed5-e29643ae30ee@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "316875d1-a1b5-489b-aeaf-d49b5c7c421f": {
+    "url": "db://assets/CricketX/cricket7.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "23b1c292-bfd3-443c-8c43-100203310c17": {
+    "url": "db://assets/CricketX/cricket8.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "932fe3e8-8a98-4e4c-85d3-2585cd732549@6c48a": {
+    "url": "db://assets/CricketX/cricket5.png@6c48a",
+    "value": {
+      "depends": [
+        "932fe3e8-8a98-4e4c-85d3-2585cd732549"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a73281f1-7685-4ad8-8594-a891fc4343f3@6c48a": {
+    "url": "db://assets/CricketX/cricket3.png@6c48a",
+    "value": {
+      "depends": [
+        "a73281f1-7685-4ad8-8594-a891fc4343f3"
+      ]
+    },
+    "versionCode": 1
+  },
+  "97182bf0-c876-4a77-b3c1-a7bf3cf3c23a@6c48a": {
+    "url": "db://assets/CricketX/cricket6.png@6c48a",
+    "value": {
+      "depends": [
+        "97182bf0-c876-4a77-b3c1-a7bf3cf3c23a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "316875d1-a1b5-489b-aeaf-d49b5c7c421f@6c48a": {
+    "url": "db://assets/CricketX/cricket7.png@6c48a",
+    "value": {
+      "depends": [
+        "316875d1-a1b5-489b-aeaf-d49b5c7c421f"
+      ]
+    },
+    "versionCode": 1
+  },
+  "23b1c292-bfd3-443c-8c43-100203310c17@6c48a": {
+    "url": "db://assets/CricketX/cricket8.png@6c48a",
+    "value": {
+      "depends": [
+        "23b1c292-bfd3-443c-8c43-100203310c17"
+      ]
+    },
+    "versionCode": 1
+  },
+  "932fe3e8-8a98-4e4c-85d3-2585cd732549@f9941": {
+    "url": "db://assets/CricketX/cricket5.png@f9941",
+    "value": {
+      "depends": [
+        "932fe3e8-8a98-4e4c-85d3-2585cd732549@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "37993a96-9dcb-4384-b4d5-805a082ca422": {
+    "url": "db://assets/CricketX/cricket9.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "23b1c292-bfd3-443c-8c43-100203310c17@f9941": {
+    "url": "db://assets/CricketX/cricket8.png@f9941",
+    "value": {
+      "depends": [
+        "23b1c292-bfd3-443c-8c43-100203310c17@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "316875d1-a1b5-489b-aeaf-d49b5c7c421f@f9941": {
+    "url": "db://assets/CricketX/cricket7.png@f9941",
+    "value": {
+      "depends": [
+        "316875d1-a1b5-489b-aeaf-d49b5c7c421f@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "97182bf0-c876-4a77-b3c1-a7bf3cf3c23a@f9941": {
+    "url": "db://assets/CricketX/cricket6.png@f9941",
+    "value": {
+      "depends": [
+        "97182bf0-c876-4a77-b3c1-a7bf3cf3c23a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a73281f1-7685-4ad8-8594-a891fc4343f3@f9941": {
+    "url": "db://assets/CricketX/cricket3.png@f9941",
+    "value": {
+      "depends": [
+        "a73281f1-7685-4ad8-8594-a891fc4343f3@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "37993a96-9dcb-4384-b4d5-805a082ca422@6c48a": {
+    "url": "db://assets/CricketX/cricket9.png@6c48a",
+    "value": {
+      "depends": [
+        "37993a96-9dcb-4384-b4d5-805a082ca422"
+      ]
+    },
+    "versionCode": 1
+  },
+  "37993a96-9dcb-4384-b4d5-805a082ca422@f9941": {
+    "url": "db://assets/CricketX/cricket9.png@f9941",
+    "value": {
+      "depends": [
+        "37993a96-9dcb-4384-b4d5-805a082ca422@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f1c2ec51-f000-4f60-b2bf-04c471d4a52f": {
+    "url": "db://assets/GameScript",
+    "value": {},
+    "versionCode": 1
+  },
+  "508f8b83-49dd-451e-9b3d-4cbae7c3c859": {
+    "url": "db://assets/GameScript/GameCtrl.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f7ac9ac0-b477-4d9e-9d22-a4104a126966": {
+    "url": "db://assets/scene.scene",
+    "value": {
+      "depends": [
+        "91507012-a07e-4c25-ab66-ebaf682c87c7",
+        "24a704da-2867-446d-8d1a-5e920c75e09d@f9941",
+        "9fd900dd-221b-4f89-8f2c-fba34243c835@f9941"
+      ],
+      "dependScripts": [
+        "1a02b17a-2227-4883-aaf5-67a08c63a869",
+        "508f8b83-49dd-451e-9b3d-4cbae7c3c859",
+        "7ffba544-08ff-44fa-b42d-fc583ea18c5d"
+      ]
+    },
+    "versionCode": 2
+  },
+  "2e297747-91a4-4812-ae8f-8f1c597bf9de": {
+    "url": "db://assets/GameScript/socket.io.js",
+    "value": {},
+    "versionCode": 1
+  },
+  "fdc27a2d-203d-471d-8c7c-4574cdeb9291": {
+    "url": "db://assets/libs",
+    "value": {},
+    "versionCode": 1
+  },
+  "7ffba544-08ff-44fa-b42d-fc583ea18c5d": {
+    "url": "db://assets/libs/SocketManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "d01a7c25-9d70-4b48-86dd-70623768a443": {
+    "url": "db://assets/libs/socket.io.d.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "44001eb2-5979-46ed-b86f-4804b4ffe0a4": {
+    "url": "db://assets/libs/socket.io.js",
+    "value": {},
+    "versionCode": 1
+  },
+  "1a02b17a-2227-4883-aaf5-67a08c63a869": {
+    "url": "db://assets/GameScript/LoadingCtrl.ts",
+    "value": {},
+    "versionCode": 1
+  }
+}

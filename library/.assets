@@ -1,0 +1,28 @@
+{
+    "version": "1.0.1",
+    "data": {
+        "paths": [
+            "CricketX",
+            "GameScript",
+            "libs",
+            "GameScript/GameCtrl.ts",
+            "GameScript/LoadingCtrl.ts",
+            "libs/SocketManager.ts",
+            "libs/socket.io.d.ts",
+            "scene.scene",
+            "CricketX/cricket.atlas.txt",
+            "CricketX/cricket.json",
+            "CricketX/cricket.png",
+            "CricketX/cricket10.png",
+            "CricketX/cricket2.png",
+            "CricketX/cricket3.png",
+            "CricketX/cricket4.png",
+            "CricketX/cricket5.png",
+            "CricketX/cricket6.png",
+            "CricketX/cricket7.png",
+            "CricketX/cricket8.png",
+            "CricketX/cricket9.png",
+            "libs/socket.io.js"
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+5-4-2026 16:08:16 - log: Load engine in /Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine
+5-4-2026 16:08:16 - log: Register native engine in /Applications/Cocos/Creator/3.8.8/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+5-4-2026 16:08:16 - log: Request namespace: device-list
+5-4-2026 16:08:21 - log: [Scene] meshopt wasm decoder initialized
+5-4-2026 16:08:21 - log: [Scene] [box2d]:box2d wasm lib loaded.
+5-4-2026 16:08:21 - log: [Scene] [bullet]:bullet wasm lib loaded.
+5-4-2026 16:08:21 - log: [Scene] [PHYSICS]: using builtin.
+5-4-2026 16:08:21 - log: [Scene] Cocos Creator v3.8.8
+5-4-2026 16:08:21 - log: [Scene] Using custom pipeline: Builtin
+5-4-2026 16:08:21 - log: [Scene] [PHYSICS2D]: switch from builtin to box2d.
+5-4-2026 16:08:31 - log: [Scene] Spine: Animation not found: <None>
