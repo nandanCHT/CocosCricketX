@@ -15,20 +15,42 @@ export class GameCtrl extends Component {
   @property(Node)
   wagebaNode: Node = null!;
 
+  @property(sp.Skeleton)
+  coinSpine: sp.Skeleton = null!;
+
   private currentStatus: number = -1;
   private lastCountdownValue: number = 0;
+  private coinDelayTimer: any = null;
+
+  private coinAnimations: string[] = [
+    "amoxtomasxvis",
+    "amoxtomasxvis2",
+    "amoxtomasxvis3",
+  ];
 
   start() {
     if (this.wagebaNode) {
       this.wagebaNode.active = false;
     }
+
     if (this.multiplierLabel) {
       this.multiplierLabel.node.active = false;
+      this.multiplierLabel.string = "";
+    }
+    if (this.coinSpine) {
+      this.coinSpine.node.active = false;
     }
   }
 
   updateMultiplier(value: number, status: number) {
     if (!this.multiplierLabel) return;
+
+    // ✅ 0 se kam ya exactly 0 value pe kuch mat dikhao
+    if (value <= 0) {
+      this.multiplierLabel.node.active = false;
+      return;
+    }
+
     if (status === 0) {
       this.lastCountdownValue = value;
     }
@@ -54,16 +76,41 @@ export class GameCtrl extends Component {
     }
   }
 
+  stopCoin() {
+    if (this.coinDelayTimer) {
+      clearTimeout(this.coinDelayTimer);
+      this.coinDelayTimer = null;
+    }
+    if (this.coinSpine) {
+      this.coinSpine.setCompleteListener(null);
+      this.coinSpine.node.active = false;
+    }
+  }
+
+  playRandomCoinAnim() {
+    if (!this.coinSpine || !this.coinSpine.node.active) return;
+
+    const randomIndex = Math.floor(Math.random() * this.coinAnimations.length);
+    const animName = this.coinAnimations[randomIndex];
+
+    this.coinSpine.setAnimation(0, animName, false);
+
+    this.coinSpine.setCompleteListener(() => {
+      this.coinSpine.setCompleteListener(null);
+
+      this.coinDelayTimer = setTimeout(() => {
+        if (this.coinSpine && this.coinSpine.node.active) {
+          this.playRandomCoinAnim();
+        }
+      }, 2000);
+    });
+  }
+
   handleStateEntry(status: number) {
     if (!this.bg || !this.ball) return;
 
-    if (status !== 2 && this.wagebaNode) {
-      this.wagebaNode.active = false;
-      const anim = this.wagebaNode.getComponent(Animation);
-      if (anim) anim.stop();
-    }
-
     if (status === 0) {
+      this.stopCoin();
       this.ball.node.active = true;
       this.bg.setCompleteListener(null);
       const bgTrack = this.bg.setAnimation(0, "mtavarifoni", false);
@@ -72,7 +119,19 @@ export class GameCtrl extends Component {
         this.lastCountdownValue > 0 ? this.lastCountdownValue - 1 : 0;
       if (bgTrack) bgTrack.trackTime = syncTime;
       if (ballTrack) ballTrack.trackTime = syncTime;
+
+      if (this.wagebaNode) {
+        this.wagebaNode.active = false;
+        const anim = this.wagebaNode.getComponent(Animation);
+        if (anim) anim.stop();
+      }
     } else if (status === 1) {
+      if (this.wagebaNode) {
+        this.wagebaNode.active = false;
+        const anim = this.wagebaNode.getComponent(Animation);
+        if (anim) anim.stop();
+      }
+
       this.ball.node.active = true;
       const currentTrack = this.bg.getCurrent(0);
       const isIdlePlaying =
@@ -88,16 +147,30 @@ export class GameCtrl extends Component {
       } else {
         this.playStep2();
       }
+
+      if (this.coinSpine) {
+        this.coinSpine.node.active = true;
+        this.coinDelayTimer = setTimeout(() => {
+          if (this.coinSpine && this.coinSpine.node.active) {
+            this.playRandomCoinAnim();
+          }
+        }, 1500);
+      }
     } else if (status === 2) {
+      this.stopCoin();
+
       this.ball.node.active = false;
       this.bg.setCompleteListener(null);
 
       if (this.wagebaNode) {
         this.wagebaNode.setPosition(this.ball.node.position);
         this.wagebaNode.active = true;
-        const anim = this.wagebaNode.getComponent(Animation);
-        if (anim) {
-          anim.play();
+        const spine = this.wagebaNode.getComponent(sp.Skeleton);
+        if (spine) {
+          spine.clearTrack(0);
+          spine.setToSetupPose();
+          spine.setSlotsToSetupPose();
+          spine.setAnimation(0, "wageba", false);
         }
       }
     }
@@ -116,5 +189,11 @@ export class GameCtrl extends Component {
     if (!this.bg || !this.ball) return;
     this.bg.setAnimation(0, "ballflystratosferaskyloop", true);
     this.ball.setAnimation(0, "ballflycosmosloop", true);
+  }
+
+  onDestroy() {
+    if (this.coinDelayTimer) {
+      clearTimeout(this.coinDelayTimer);
+    }
   }
 }
